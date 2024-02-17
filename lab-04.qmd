@@ -1,0 +1,52 @@
+---
+title: "lab-04.qmd"
+format: html
+---
+
+## Reproducible research
+
+    - When we say "reproducible research", what do we mean?
+Reproducible research means conducting studies in a way that lets others replicate and verify the results using the same data, code, and methods.
+    - What is the difference between the 'computing environment' and the 'project structure'?
+ The "computing environment" refers to the software and hardware setup necessary to run a project, including libraries, dependencies, and configurations. On the other hand, the "project structure" refers to the organization and layout of files, folders, and resources within a project, which helps maintain clarity, reproducibility, and collaboration.
+
+    - How does Git and GitHub support reproducible research practices?
+Git and GitHub support reproducible research practices by providing version control and collaboration tools for managing code, data, and documentation. Researchers can use Git to track changes to their project files over time, enabling transparency and reproducibility of their work. GitHub, as a hosting platform for Git repositories, facilitates collaboration, sharing, and access to research materials, including code, data, and documentation, thus fostering transparency and reproducibility in scientific research.
+
+## Project management
+
+
+
+* Forking the Repository:
+    + Visit the GitHub repository you want to contribute to.
+    + Click on the "Fork" button in the top-right corner of the repository page.
+    + This creates a copy of the repository under your GitHub account.
+
+* Cloning the Forked Repository:
+    + On your forked repository page, click the green "Code" button.
+    + Copy the repository URL.
+    + Open your terminal or command prompt.
+    + Use the git clone command followed by the repository URL to clone the repository to your local machine.
+* Editing Files:
+    + Navigate to the cloned repository directory using the terminal.
+    + Make changes or edits to the files using your preferred text editor or IDE.
+* Committing Changes:
+    + After making changes, add the modified files to the staging area using git add command. For example, git add filename.
+    +Commit the changes to the local repository using the git commit command with a meaningful commit message. For example, git commit -m "Updated README.md".
+* Pushing Changes to the Repository:
+    + Push the committed changes from your local repository to your forked repository on GitHub using the git push command. For example, git push origin main.
+    + If prompted, enter your GitHub username and password.
+* Creating a Pull Request:
+    + Go to your forked repository on GitHub.
+    + Click on the "Pull Request" button.
+    + Compare the changes between your forked repository and the original repository.
+* Reviewing and Merging Changes:
+    + The repository owner or collaborators can review your pull request.
+    + If the changes are approved, they can be merged into the original repository.
+
+
+### Assessing my progress
+I learned how to clone a repository
+I found the most challenging thing for me is to remember the whole process of cloning repository
+I consult the instructor and [click here](https://qtalr.github.io/qtalrkit/articles/recipe-4.html)
+I would like to know how to change the color of the text to highlight them
